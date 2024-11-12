@@ -4,17 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9b2ab4f-c968-4913-a5b9-dfaa32224b09" name="Changes" comment="" />
+    <list default="true" id="e9b2ab4f-c968-4913-a5b9-dfaa32224b09" name="Changes" comment="de">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/AddressesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderItensDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Addresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/AddressesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/OrderItensRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IsackAraujo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IsackAraujo/isack-progweb2024-2.git&quot;,
+    &quot;accountId&quot;: &quot;a390d0f0-942e-4897-a18e-2cf1d2575819&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2oSGWfHj8FgwTfbY3idfPjtogJM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +67,11 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ServerApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aluno/IdeaProjects/webisack2",
+    "last_opened_file_path": "C:/Users/Aluno/testejava",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,11 +106,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730855596579</updated>
-      <workItem from="1730855597704" duration="477000" />
+      <workItem from="1730855597704" duration="1211000" />
+      <workItem from="1730931187123" duration="614000" />
+      <workItem from="1731369624379" duration="4677000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
