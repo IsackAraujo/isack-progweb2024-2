@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b2ab4f-c968-4913-a5b9-dfaa32224b09" name="Changes" comment="de">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/AddressesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderItensDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Addresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/AddressesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/OrderItensRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/CrudController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/interfaces/ICrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItens.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.server [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -77,9 +75,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -108,7 +112,8 @@
       <updated>1730855596579</updated>
       <workItem from="1730855597704" duration="1211000" />
       <workItem from="1730931187123" duration="614000" />
-      <workItem from="1731369624379" duration="4677000" />
+      <workItem from="1731369624379" duration="5612000" />
+      <workItem from="1731469590370" duration="4220000" />
     </task>
     <servers />
   </component>

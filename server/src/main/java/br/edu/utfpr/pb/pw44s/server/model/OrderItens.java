@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.pw44s.server.model;
+/*package br.edu.utfpr.pb.pw44s.server.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -32,3 +32,4 @@ public class OrderItens {
     @JoinColumn(name = "order_id")
     private Order order;
 }
+*/

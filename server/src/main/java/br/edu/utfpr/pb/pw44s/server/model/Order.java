@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.pw44s.server.model;
+/*package br.edu.utfpr.pb.pw44s.server.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -35,4 +35,6 @@ public class Order {
 
 
 }
+
+ */
 
