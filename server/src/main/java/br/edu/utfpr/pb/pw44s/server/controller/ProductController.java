@@ -1,32 +1,33 @@
 package br.edu.utfpr.pb.pw44s.server.controller;
 
+import br.edu.utfpr.pb.pw44s.server.dto.ProductDTO;
 import br.edu.utfpr.pb.pw44s.server.model.Product;
-import br.edu.utfpr.pb.pw44s.server.repository.ProductRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import br.edu.utfpr.pb.pw44s.server.services.ICrudService;
+import br.edu.utfpr.pb.pw44s.server.services.IProductService;
+import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @RestController
 @RequestMapping("products")
-public class ProductController  {
+public class ProductController extends CrudController<Product, ProductDTO, Long> {
+    private final IProductService productService;
+    private final ModelMapper modelMapper;
 
-    @Autowired
-    private ProductRepository productRepository;
-
-
-    @GetMapping
-    public List<Product> getAllProducts() {
-        return productRepository.findAll();
+    public ProductController(IProductService productService, ModelMapper modelMapper) {
+        super(Product.class, ProductDTO.class);
+        this.productService = productService;
+        this.modelMapper = modelMapper;
     }
 
-    @GetMapping("category/{categoryId}")
-    public List<Product> getProductsByCategory(@PathVariable Long categoryId) {
-        return productRepository.findAllByCategoriaId(categoryId);
+    @Override
+    protected ICrudService<Product, Long> getService() {
+        return productService;
     }
 
-    @GetMapping("{productId}")
-    public Product getProductById(@PathVariable Long productId) {
-        return productRepository.findById(Math.toIntExact(productId)).orElse(null);
+    @Override
+    protected ModelMapper getModelMapper() {
+        return modelMapper;
     }
 }
+

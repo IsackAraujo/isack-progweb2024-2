@@ -8,8 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Getter @Setter
-
+@Getter
+@Setter
 public class Addresses {
 
     @Id
@@ -36,5 +36,4 @@ public class Addresses {
 
     @Column(name = "postal_code")
     private String postalCode;
-
 }

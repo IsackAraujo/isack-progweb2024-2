@@ -1,4 +1,4 @@
-/*package br.edu.utfpr.pb.pw44s.server.model;
+package br.edu.utfpr.pb.pw44s.server.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -6,8 +6,6 @@ import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
-
-
 
 @Entity
 @Table(name = "tb_order")
@@ -21,20 +19,19 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "total_price")
-    private BigDecimal totalPrice;
-
-    @Column(name = "order_date")
     private LocalDateTime orderDate;
-
-    @Column(name = "order_description")
+    private BigDecimal totalPrice;
     private String orderDescription;
 
-    @OneToMany(mappedBy = "order")
-    private List<OrderItens> orderItems;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
+
+    @OneToMany(mappedBy = "order", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<ItemOrder> orderItems;
 
 
 }
 
- */
+
 
