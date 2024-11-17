@@ -2,10 +2,8 @@ package br.edu.utfpr.pb.pw44s.server.controller;
 
 import br.edu.utfpr.pb.pw44s.server.dto.CategoryDTO;
 import br.edu.utfpr.pb.pw44s.server.model.Category;
-import br.edu.utfpr.pb.pw44s.server.model.Product;
 import br.edu.utfpr.pb.pw44s.server.services.ICategoryService;
 import br.edu.utfpr.pb.pw44s.server.services.ICrudService;
-import br.edu.utfpr.pb.pw44s.server.services.IProductService;
 import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,11 +23,11 @@ public class CategoryController extends CrudController<Category, CategoryDTO, Lo
 
     @Override
     protected ICrudService<Category, Long> getService() {
-        return null;
+        return categoryService;
     }
 
     @Override
     protected ModelMapper getModelMapper() {
-        return null;
+        return modelMapper;
     }
 }

@@ -5,37 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b2ab4f-c968-4913-a5b9-dfaa32224b09" name="Changes" comment="de">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/AuthenticationResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/EntryPointUnauthorizedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/JWTAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/WebSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/CrudServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/CrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/CrudController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/AddressesDTO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/CategoryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderItensDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Addresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/OrderItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/ItemOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/interfaces/ICrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/ICrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/WebSecurity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +42,10 @@
     &quot;accountId&quot;: &quot;a390d0f0-942e-4897-a18e-2cf1d2575819&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -75,29 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.server [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/isack/Faculdade/Web/Trabalho/isack-progweb2024-2/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/interfaces&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.server [clean].executor": "Run",
+    "Maven.server [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ServerApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/isack/Faculdade/Web/Trabalho/isack-progweb2024-2/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/interfaces",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\isack\Faculdade\Web\Trabalho\isack-progweb2024-2\server\src\main\java\br\edu\utfpr\pb\pw44s\server\services\interfaces" />
@@ -143,7 +125,7 @@
       <workItem from="1731541337041" duration="2760000" />
       <workItem from="1731581987308" duration="873000" />
       <workItem from="1731774042416" duration="846000" />
-      <workItem from="1731777442093" duration="11701000" />
+      <workItem from="1731777442093" duration="16866000" />
     </task>
     <servers />
   </component>

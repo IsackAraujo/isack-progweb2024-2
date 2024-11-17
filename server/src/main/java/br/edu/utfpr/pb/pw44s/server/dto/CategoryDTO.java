@@ -1,11 +1,15 @@
 package br.edu.utfpr.pb.pw44s.server.dto;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
 public class CategoryDTO {
 
     private Long id;
 
-    private String nome;
+    private String name;
 }

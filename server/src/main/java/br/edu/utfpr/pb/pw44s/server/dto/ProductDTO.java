@@ -1,11 +1,15 @@
 package br.edu.utfpr.pb.pw44s.server.dto;
 
 import jakarta.validation.constraints.NotNull;
-import lombok.Data;
+import lombok.*;
 
 import java.math.BigDecimal;
 
-@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
 public class ProductDTO {
 
     private Long id;
