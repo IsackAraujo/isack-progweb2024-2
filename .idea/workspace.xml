@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b2ab4f-c968-4913-a5b9-dfaa32224b09" name="Changes" comment="de">
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +131,8 @@
       <workItem from="1731774042416" duration="846000" />
       <workItem from="1731777442093" duration="16866000" />
       <workItem from="1731866859342" duration="5027000" />
+      <workItem from="1731927499087" duration="60000" />
+      <workItem from="1731969218755" duration="2745000" />
     </task>
     <servers />
   </component>

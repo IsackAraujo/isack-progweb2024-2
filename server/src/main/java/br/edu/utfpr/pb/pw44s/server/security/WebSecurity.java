@@ -67,7 +67,7 @@ public class WebSecurity {
                 .requestMatchers(antMatcher("/h2-console/**")).permitAll()
                 //as demais rotas da aplicação só podem ser acessadas se o usuário estiver autenticado
                 .requestMatchers("/categories/**").permitAll()
-                .requestMatchers("/products/**").permitAll()
+                .requestMatchers("/user/**").permitAll()
                 .anyRequest().authenticated()
         );
         http.authenticationManager(authenticationManager)
