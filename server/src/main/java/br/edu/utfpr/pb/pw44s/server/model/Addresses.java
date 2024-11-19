@@ -10,7 +10,7 @@ import lombok.*;
 @Builder
 @Getter
 @Setter
-public class Addresses {
+public class Addresses { // Adicionar usuario em Addresses
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

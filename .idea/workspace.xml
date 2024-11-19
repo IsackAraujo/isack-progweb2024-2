@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b2ab4f-c968-4913-a5b9-dfaa32224b09" name="Changes" comment="de">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/ItemOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/dto/ItemOrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/services/IItemOrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Addresses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/br/edu/utfpr/pb/pw44s/server/model/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +124,7 @@
       <workItem from="1731777442093" duration="16866000" />
       <workItem from="1731866859342" duration="5027000" />
       <workItem from="1731927499087" duration="60000" />
-      <workItem from="1731969218755" duration="6447000" />
+      <workItem from="1731969218755" duration="8510000" />
     </task>
     <servers />
   </component>

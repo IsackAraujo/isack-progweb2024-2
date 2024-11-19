@@ -26,6 +26,8 @@ public class Order {
     @OneToMany(mappedBy = "order", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<ItemOrder> orderItems;
 
+    // Addresses
+
     private LocalDateTime orderDate;
     private BigDecimal totalPrice;
     private String orderDescription;
