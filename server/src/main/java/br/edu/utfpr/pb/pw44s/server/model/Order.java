@@ -19,16 +19,16 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private LocalDateTime orderDate;
-    private BigDecimal totalPrice;
-    private String orderDescription;
-
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
 
     @OneToMany(mappedBy = "order", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<ItemOrder> orderItems;
+
+    private LocalDateTime orderDate;
+    private BigDecimal totalPrice;
+    private String orderDescription;
 
 
 }
