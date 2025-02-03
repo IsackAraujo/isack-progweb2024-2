@@ -1,7 +1,7 @@
 package br.edu.utfpr.pb.pw44s.server.controller;
 
 import br.edu.utfpr.pb.pw44s.server.dto.UserDTO;
-import br.edu.utfpr.pb.pw44s.server.model.User;
+import br.edu.utfpr.pb.pw44s.server.entity.UserEntity;
 import br.edu.utfpr.pb.pw44s.server.services.IUserService;
 
 
@@ -28,7 +28,7 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<GenericResponse> createUser(@RequestBody @Valid UserDTO userDTO) {
-        userService.save(modelMapper.map(userDTO, User.class));
+        userService.save(modelMapper.map(userDTO, UserEntity.class));
         return ResponseEntity.ok(new GenericResponse("User Saved"));
     }
 

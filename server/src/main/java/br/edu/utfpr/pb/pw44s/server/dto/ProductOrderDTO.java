@@ -9,16 +9,13 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ItemOrderDTO {
+public class ProductOrderDTO {
 
     private int id;
-
-    private BigDecimal price;
 
     @NotNull
     private int quantity;
 
-    @NotNull
-    private ProductDTO product;
+    private BigDecimal totalValue;
 
 }

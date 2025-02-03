@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "tb_product")
@@ -12,21 +13,17 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ProductEntity {
-
+public class OrderEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String name;
-
-    private String description;
-
-    private BigDecimal price;
-
-    private String imageUrl;
-
     @ManyToOne
-    @JoinColumn(name = "category_id")
-    private CategoryEntity categoryEntityId;
+    @JoinColumn(name = "product_id")
+    private ProductEntity productEntityId;
+    private Long quantity;
+    private BigDecimal totalValue;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private UserEntity userEntityId;
+    private LocalDateTime orderDate;
 }

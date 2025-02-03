@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.pw44s.server.model;
+package br.edu.utfpr.pb.pw44s.server.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -21,7 +21,7 @@ public class Order {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private UserEntity user;
 
     @OneToMany(mappedBy = "order", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<ItemOrder> orderItems;

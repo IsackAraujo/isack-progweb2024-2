@@ -24,4 +24,6 @@ public class ProductDTO {
     private BigDecimal price;
 
     private CategoryDTO category;
+
+    private String imageUrl;
 }

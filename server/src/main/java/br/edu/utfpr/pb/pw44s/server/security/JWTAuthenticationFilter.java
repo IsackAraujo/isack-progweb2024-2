@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.pw44s.server.security;
 
-import br.edu.utfpr.pb.pw44s.server.model.User;
+import br.edu.utfpr.pb.pw44s.server.entity.UserEntity;
 import br.edu.utfpr.pb.pw44s.server.services.AuthService;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -37,10 +37,10 @@ public class JWTAuthenticationFilter
 
         try {
             // {username: "admin@admin.com", password: "P4ssword"}
-            User credentials = new ObjectMapper()
-                    .readValue(request.getInputStream(), User.class);
+            UserEntity credentials = new ObjectMapper()
+                    .readValue(request.getInputStream(), UserEntity.class);
 
-            User user = (User) authService.loadUserByUsername(
+            UserEntity user = (UserEntity) authService.loadUserByUsername(
                     credentials.getUsername());
 
             return authenticationManager.authenticate(
@@ -69,8 +69,8 @@ public class JWTAuthenticationFilter
                 .sign(Algorithm.HMAC512(SecurityConstants.SECRET));
         response.setContentType("application/json");
         String displayName = "";
-        if (authResult.getPrincipal() instanceof User) {
-            displayName = ((User) authResult.getPrincipal()).getDisplayName();
+        if (authResult.getPrincipal() instanceof UserEntity) {
+            displayName = ((UserEntity) authResult.getPrincipal()).getDisplayName();
         }
 
         response.getWriter().write(

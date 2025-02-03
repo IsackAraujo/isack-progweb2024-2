@@ -16,7 +16,7 @@ import java.util.Collection;
 @AllArgsConstructor
 @Builder
 @Getter @Setter
-public class User implements UserDetails {
+public class UserEntity implements UserDetails {
 
     //  {id: Long, nome: String, senha: String, email: String}
 

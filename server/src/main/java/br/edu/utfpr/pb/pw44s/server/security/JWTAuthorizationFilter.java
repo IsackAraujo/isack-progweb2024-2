@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.pw44s.server.security;
 
-import br.edu.utfpr.pb.pw44s.server.model.User;
+import br.edu.utfpr.pb.pw44s.server.entity.UserEntity;
 import br.edu.utfpr.pb.pw44s.server.services.AuthService;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -49,7 +49,7 @@ public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
                 .verify(token.replace(SecurityConstants.TOKEN_PREFIX, ""))
                 .getSubject();
         if (username != null) {
-            User user = (User) authService.loadUserByUsername(username);
+            UserEntity user = (UserEntity) authService.loadUserByUsername(username);
             return new UsernamePasswordAuthenticationToken(
                     user.getUsername(),
                     null,

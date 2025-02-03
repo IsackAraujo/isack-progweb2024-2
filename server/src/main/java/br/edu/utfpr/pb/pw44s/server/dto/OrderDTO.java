@@ -1,6 +1,9 @@
 package br.edu.utfpr.pb.pw44s.server.dto;
 
 import jakarta.validation.constraints.NotNull;
+
+import java.time.LocalDate;
+import java.util.List;
 import lombok.*;
 
 @AllArgsConstructor
@@ -10,14 +13,6 @@ import lombok.*;
 @Setter
 public class OrderDTO {
 
-    private int id;
-
-    @NotNull
-    private int userId;
-
-    @NotNull
-    private int productId;
-
-    @NotNull
-    private int quantity;
+    private LocalDate orderDate;
+    private List<ProductOrderDTO> products;
 }

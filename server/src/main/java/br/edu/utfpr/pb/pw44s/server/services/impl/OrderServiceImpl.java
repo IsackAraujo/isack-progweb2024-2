@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.pw44s.server.services.impl;
 
-import br.edu.utfpr.pb.pw44s.server.model.Order;
+import br.edu.utfpr.pb.pw44s.server.entity.Order;
 import br.edu.utfpr.pb.pw44s.server.repository.OrderRepository;
 import br.edu.utfpr.pb.pw44s.server.services.IOrderService;
 import org.springframework.data.jpa.repository.JpaRepository;

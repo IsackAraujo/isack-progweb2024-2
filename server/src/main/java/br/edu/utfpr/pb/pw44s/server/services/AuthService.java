@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.pw44s.server.services;
 
-import br.edu.utfpr.pb.pw44s.server.model.User;
+import br.edu.utfpr.pb.pw44s.server.entity.UserEntity;
 import br.edu.utfpr.pb.pw44s.server.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -19,7 +19,7 @@ public class AuthService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username)
                             throws UsernameNotFoundException {
-        User user = this.userRepository.findByUsername(username);
+        UserEntity user = this.userRepository.findByUsername(username);
         if (user == null) {
             throw new UsernameNotFoundException("User not found");
         }

@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.pw44s.server.services;
 
-import br.edu.utfpr.pb.pw44s.server.model.User;
+import br.edu.utfpr.pb.pw44s.server.entity.UserEntity;
 
-public interface IUserService extends ICrudService<User, Long>{
+public interface IUserService extends ICrudService<UserEntity, Long>{
 }

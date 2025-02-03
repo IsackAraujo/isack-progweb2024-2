@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.pw44s.server.model;
+package br.edu.utfpr.pb.pw44s.server.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -12,13 +12,13 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Product {
+public class ProductEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long productId;
+    private Long id;
 
-    private String productName;
+    private String name;
 
     private String description;
 
@@ -28,5 +28,5 @@ public class Product {
 
     @ManyToOne
     @JoinColumn(name = "category_id")
-    private Category categoryId;
+    private CategoryEntity categoryEntityId;
 }
