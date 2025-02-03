@@ -1,8 +1,7 @@
-package br.edu.utfpr.pb.pw44s.server.model;
+package br.edu.utfpr.pb.pw44s.server.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
